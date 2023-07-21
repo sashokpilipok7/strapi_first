@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Bicyclette";
+  src: url("../static/fonts/Bicyclette-Light.woff2") format("woff2"),
+    url("../static/fonts/Bicyclette-Light.woff") format("woff"),
+    url("../static/fonts/Bicyclette-Light.eot") format("eot"),
+    url("../static/fonts/Bicyclette-Light.ttf") format("ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bicyclette";
+  src: url("../static/fonts/Bicyclette-Regular.woff2") format("woff2"),
+    url("../static/fonts/Bicyclette-Regular.woff") format("woff"),
+    url("../static/fonts/Bicyclette-Regular.eot") format("eot"),
+    url("../static/fonts/Bicyclette-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bicyclette";
+  src: url("../static/fonts/Bicyclette-Bold.woff2") format("woff2"),
+    url("../static/fonts/Bicyclette-Bold.woff") format("woff"),
+    url("../static/fonts/Bicyclette-Bold.eot") format("eot"),
+    url("../static/fonts/Bicyclette-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}

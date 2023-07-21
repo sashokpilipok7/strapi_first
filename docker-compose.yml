@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  strapi:
+    build:
+      context: ./api # Replace with the path to your Strapi project directory
+    ports:
+      - "1337:1337"
+    networks:
+      - my-network
+
+  nextjs:
+    build:
+      context: ./web # Replace with the path to your Next.js project directory
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: "http://strapi:1337" # Use the service name "strapi" as the hostname for communication with Strapi
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
