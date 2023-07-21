@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_members_field_licenses",
+  "info": {
+    "displayName": "license",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "license": {
+      "type": "string"
+    }
+  }
+}

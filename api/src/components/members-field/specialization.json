@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_members_field_specializations",
+  "info": {
+    "displayName": "specialization",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "specialization": {
+      "type": "string"
+    }
+  }
+}
